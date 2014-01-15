@@ -1,6 +1,7 @@
 {
 	"name": "anlutro/l4-presenter",
 	"description": "Presenter class for Laravel 4.",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Andreas Lutro",
