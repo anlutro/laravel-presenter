@@ -41,7 +41,7 @@ class ProjectPresenter extends \c\Presenter
 		if ($diffDays > 30) {
 			$color = '#090'; // green
 		} elseif ($diffDays < 14) {
-			$color = '#fcc0'; // orange
+			$color = '#fc0'; // orange
 		} else {
 			$color = '#c00'; //red
 		}
