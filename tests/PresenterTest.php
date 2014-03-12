@@ -39,15 +39,15 @@ class PresenterTest extends PHPUnit_Framework_TestCase
 		$this->assertInstanceOf('c\Presenter', $result[1]);
 	}
 
-    public function testMagicIsset()
-    {
-        $obj = new StdClass;
-        $obj->bar = 'foo';
-        $pres = $this->makePresenter($obj);
+	public function testMagicIsset()
+	{
+		$obj = new StdClass;
+		$obj->bar = 'foo';
+		$pres = $this->makePresenter($obj);
 
-        $this->assertTrue(isset($pres->foo));
-        $this->assertTrue(isset($pres->bar));
-    }
+		$this->assertTrue(isset($pres->foo));
+		$this->assertTrue(isset($pres->bar));
+	}
 
 	public function makePresenter($object)
 	{
