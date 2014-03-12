@@ -46,6 +46,11 @@ abstract class Presenter
 		return call_user_func_array([$this, $method], $params);
 	}
 
+	public function __isset($key)
+	{
+		return isset($this->object->$key) || $this->hasPresenterMethod($key);
+	}
+
 	public function __get($key)
 	{
 		if ($method = $this->hasPresenterMethod($key)) {
