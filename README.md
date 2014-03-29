@@ -1,4 +1,4 @@
-# Laravel 4 Presenter
+# Laravel 4 Presenter [![Build Status](https://travis-ci.org/anlutro/laravel-presenter.png?branch=master)](https://travis-ci.org/anlutro/laravel-presenter)
 Installation: `composer require anlutro/l4-presenter`
 
 Pick the latest stable version from packagist or the GitHub tag list.
